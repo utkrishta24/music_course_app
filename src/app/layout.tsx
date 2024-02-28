@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import test from "node:test";
 import Navbar from "@/components/Navbar";
+import LoadingScreen from "./loading/loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +23,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="relative w-full flex items-center justify-center">
           <Navbar />
+          {/* <Suspense fallback={<LoadingScreen />}> */}
+          {/* </Suspense> */}
         </div>
         {children}
       </body>
