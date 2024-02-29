@@ -26,7 +26,7 @@ function HeroSection() {
             <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-full mx-auto">
 
               "I think music in itself is healing. It's an explosive expression
-              of humanity. It's something we are all touched by. No matter what
+              of humanity. It's something we are all touched by.{<br/>} No matter what
               culture we're from, everyone loves music." - Billy Joel
             </p>
             <div>
@@ -35,7 +35,7 @@ function HeroSection() {
                   borderRadius="1.75rem"
                   className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
                 >
-                  Explore Projects
+                  Explore Courses
                 </Button>
               </Link>
             </div>

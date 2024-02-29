@@ -19,25 +19,25 @@ function Navbar({ className }: { className?: string }) {
             item="Home"
           ></MenuItem>
         </Link>
-        <MenuItem setActive={setActive} active={active} item="My Projects">
+        <MenuItem setActive={setActive} active={active} item="My Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href={"/courses"}>All Projects</HoveredLink>
-            <HoveredLink href={"/courses"}>Top Projects</HoveredLink>
-            <HoveredLink href={"/courses"}>Personal Projects</HoveredLink>
+            <HoveredLink href={"/courses"}>All Courses</HoveredLink>
+            <HoveredLink href={"/courses"}>Top Courses</HoveredLink>
+            <HoveredLink href={"/courses"}>Personal Courses</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Projects">
+        <MenuItem setActive={setActive} active={active} item="Courses">
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Stream-it"
-              href="https://algochurn.com"
-              src="/https://github.com/utkrishta24/UI-Dark-Theme"
-              description="Prepare for tech interviews like never before."
+              title="Guitar"
+              href="/"
+              src="/"
+              description="Prepare for music interviews like never before."
             />
             <ProductItem
-              title="Scale Up"
-              href="https://tailwindmasterkit.com"
-              src="/#"
+              title="Music Theory"
+              href="/"
+              src="/"
               description="Production ready Tailwind css components for your next project"
             />
           </div>
